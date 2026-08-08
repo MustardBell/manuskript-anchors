@@ -1,0 +1,15 @@
+{
+  "id": "manuskript.anchors",
+  "name": "Anchors",
+  "version": "1.0.0",
+  "api_version": 1,
+  "entry_point": "plugin:register",
+  "description": "Makes <a name> anchors work: a linkable place in HTML, and nothing visible in BBCode.",
+  "author": "MustardBell",
+  "homepage": "https://github.com/MustardBell/manuskript-anchors",
+  "media_types": [
+    "text/markdown",
+    "text/html",
+    "text/x-bbcode"
+  ]
+}
