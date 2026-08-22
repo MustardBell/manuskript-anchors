@@ -73,11 +73,12 @@ It does not touch the editor. While you are typing, an anchor is raw text and
 looks like raw text. Making it look like a marker is a job for the editor, not
 for a conversion.
 
-## Requires
+## Compatibility
 
-Manuskript with plugin API version 1 and the `conversion_augmentation`
-contribution kind. No capabilities are requested: the plugin reads nothing,
-writes nothing, and holds no state.
+The plugin targets stable Manuskript Plugin API 1 and project formats 0–2;
+later project formats are tentatively allowed until they can be tested. It
+uses the `conversion_augmentation` contribution kind. No capabilities are
+requested: the plugin reads nothing, writes nothing, and holds no state.
 
 The routes it augments — `text/markdown` to `text/html`, and `text/markdown`
 to `text/x-bbcode` — are declared in the contributions, not implied by the
